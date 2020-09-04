@@ -134,6 +134,9 @@ MEDIA_ROOT = BASE_DIR / "media"
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
+
+# stripe keys
+
 if DEBUG:
     STRIPE_PUBLISHABLE_KEY = ''
     STRIPE_SECRET_KEY = ''
